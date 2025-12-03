@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove Haven Records - Premium Vinyl Collection</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <h1 class="logo">Groove Haven Records</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#featured">Featured Vinyl</a></li>
+                <li><a href="#contest">Win Vinyl</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                <span class="theme-icon">🌙</span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h2>Experience Music the Way It Was Meant to Be Heard</h2>
+        <p>Discover our curated collection of classic and contemporary vinyl records. From hip hop legends to modern indie, we bring the warmth and authenticity of analog sound to your turntable.</p>
+        <a href="#featured" class="cta-button">Browse Collection</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <article class="container">
+            <h2>Why Vinyl? Why Groove Haven?</h2>
+            <section class="about-grid">
+                <article class="about-card">
+                    <span class="about-icon">🎵</span>
+                    <h3>Authentic Sound</h3>
+                    <p>Vinyl records deliver rich, warm sound quality that digital formats simply cannot replicate. Experience the depth and character of analog audio with every spin.</p>
+                </article>
+                <article class="about-card">
+                    <span class="about-icon">📀</span>
+                    <h3>Curated Selection</h3>
+                    <p>Our collection spans decades of music history. From rare first pressings to contemporary releases, each record is carefully selected for quality and significance.</p>
+                </article>
+                <article class="about-card">
+                    <span class="about-icon">✨</span>
+                    <h3>Pristine Condition</h3>
+                    <p>Every vinyl record we sell is thoroughly inspected and graded. We ensure you receive albums in excellent condition, ready to enjoy immediately.</p>
+                </article>
+                <article class="about-card">
+                    <span class="about-icon">🎁</span>
+                    <h3>Collector's Paradise</h3>
+                    <p>Whether you're starting your collection or hunting for that elusive pressing, we have something special for every music lover and vinyl enthusiast.</p>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <!-- Featured Vinyl Section -->
+    <section id="featured" class="featured-vinyl">
+        <article class="container">
+            <h2>Featured Vinyl Records</h2>
+            <p class="section-subtitle">Explore our hand-picked selection of exceptional albums</p>
+            
+            <!-- Vinyl Selection Buttons -->
+            <nav class="vinyl-controls">
+                <button class="vinyl-btn active" data-product="vinyl1">2 Star and the Dream Police</button>
+                <button class="vinyl-btn" data-product="vinyl2">Stankonia</button>
+                <button class="vinyl-btn" data-product="vinyl3">Outlandos D'Amour</button>
+                <button class="vinyl-btn" data-product="vinyl4">GNX</button>
+            </nav>
+
+            <!-- Vinyl Display Area -->
+            <section class="vinyl-display">
+                <!-- VINYL RECORD 1 -->
+                <article class="vinyl-item active" data-product-name="vinyl1">
+                    <img src="images/star.jpg" alt="2 Star and the Dream Police Vinyl Cover">
+                    <section class="vinyl-info">
+                        <h3>2 Star and the Dream Police</h3>
+                        <p><strong>Artist:</strong> Mk.Gee</p>
+                        <p><strong>Year:</strong> 2024 | <strong>Genre:</strong> Alternative/Indie</p>
+                        <p>2 Star and the Dream Police invites you into a neon-soaked world of rebellion, dreamscapes, and retro-futuristic storytelling. The warm, high-fidelity pressing enhances the album’s blend of gritty riffs, atmospheric synths, and cinematic production, making each track feel immersive and transportive. Paired with its striking dream-punk cover art, this vinyl edition serves as both a collectible centerpiece and a rich listening experience—perfect for fans who want to fully disappear into the album’s surreal, imaginative universe.</p>
+                    </section>
+                </article>
+
+                <!-- VINYL RECORD 2 -->
+                <article class="vinyl-item" data-product-name="vinyl2">
+                    <img src="images/Stankonia.jpeg" alt="Album Title 2 Vinyl Cover">
+                    <section class="vinyl-info">
+                        <h3>Stankonia</h3>
+                        <p><strong>Artist:</strong> Outkast</p>
+                        <p><strong>Year:</strong> 2000 | <strong>Genre:</strong> Hip Hop</p>
+                        <p>Stankonia explodes with the raw creativity, fearless experimentation, and boundary-breaking energy that made Outkast a defining force in hip-hop. The analog warmth brings new depth to the album’s genre-blending production—from frenetic funk and psychedelic rap to electrifying Southern beats—allowing every layer to hit with even more vibrancy. Paired with its iconic artwork, this vinyl edition captures the duo’s futuristic vision at its fullest, making it an essential addition for collectors and fans of albums that reshaped the sound of a generation.</p>
+                    </section>
+                </article>
+
+                <!-- VINYL RECORD 3 -->
+                <article class="vinyl-item" data-product-name="vinyl3">
+                    <img src="images/outlandos.jpg" alt="Album Title 3 Vinyl Cover">
+                    <section class="vinyl-info">
+                        <h3>Outlandos D'Amour</h3>
+                        <p><strong>Artist:</strong> The Police</p>
+                        <p><strong>Year:</strong> 1978 | <strong>Genre:</strong> New Wave Rock</p>
+                        <p>Outlandos d’Amour reveals the raw charm and tight musicianship that launched The Police into rock history. The crisp, analog format highlights the band’s signature fusion of punk edge, reggae rhythm, and new-wave brilliance, letting every bassline throb, guitar sting, and vocal echo land with classic clarity. Combined with its bold sleeve art, this vinyl edition preserves the album’s youthful urgency and inventive spirit, making it a timeless must-have for fans of early alternative rock’s evolution.</p>
+                    </section>
+                </article>
+
+                <!-- VINYL RECORD 4 -->
+                <article class="vinyl-item" data-product-name="vinyl4">
+                    <img src="images/gnx.jpg" alt="Album Title 4 Vinyl Cover">
+                    <section class="vinyl-info">
+                        <h3>GNX</h3>
+                        <p><strong>Artist:</strong> Kendrick Lamar</p>
+                        <p><strong>Year:</strong> 2024 | <strong>Genre:</strong> Hip Hop</p>
+                        <p>GNX delivers Kendrick Lamar’s lyrical intensity and conceptual depth with gripping immediacy, amplifying the album’s layering of raw emotion, sharp commentary, and experimental production. The warmth of the medium enhances the dynamic shifts, intricate beatwork, and atmospheric textures that define the project, creating a more immersive and deliberate listening experience. Paired with its striking visual presentation, this vinyl edition stands as a powerful collectible for fans who want to feel every nuance of Kendrick’s most introspective and boundary-pushing work.</p>
+                    </section>
+                </article>
+            </section>
+        </article>
+    </section>
+
+    <!-- Contest/Game Section -->
+    <section id="contest" class="contest">
+        <article class="container">
+            <h2>Win a Free Vinyl Record!</h2>
+            <p class="section-subtitle">Guess our lucky number and win a vinyl of your choice from our collection</p>
+            
+            <section class="game-container">
+                <p class="game-instructions">Think of a number between 1 and 10, enter it below, and see if it matches our randomly generated lucky number. If they match, you win a free vinyl record!</p>
+                
+                <form class="game-input-area">
+                    <label for="guess-input">Your Lucky Number (1-10):</label>
+                    <input type="number" id="guess-input" min="1" max="10" placeholder="Enter number">
+                    <button type="button" id="guess-submit">Submit Guess</button>
+                </form>
+
+                <output id="game-result" class="game-result"></output>
+            </section>
+        </article>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="contact">
+        <article class="container">
+            <h2>Get In Touch</h2>
+            <p class="section-subtitle">Questions about our vinyl collection? Want to special order an album? Reach out to us!</p>
+            
+            <form id="contact-form" class="contact-form" novalidate>
+                <fieldset class="form-row">
+                    <section class="form-group">
+                        <label for="first-name">First Name <span class="required">*</span></label>
+                        <input type="text" id="first-name" name="firstName" required>
+                        <span class="error-message"></span>
+                    </section>
+
+                    <section class="form-group">
+                        <label for="last-name">Last Name <span class="required">*</span></label>
+                        <input type="text" id="last-name" name="lastName" required>
+                        <span class="error-message"></span>
+                    </section>
+                </fieldset>
+
+                <section class="form-group">
+                    <fieldset>
+                        <legend>Preferred Contact Method <span class="required">*</span></legend>
+                        <label class="radio-label">
+                            <input type="radio" name="contactMethod" value="email" checked>
+                            <span>Email</span>
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="contactMethod" value="phone">
+                            <span>Phone</span>
+                        </label>
+                    </fieldset>
+                    <span class="error-message"></span>
+                </section>
+
+                <section class="form-group">
+                    <label for="email">Email Address <span class="required conditional-required">*</span></label>
+                    <input type="email" id="email" name="email">
+                    <span class="error-message"></span>
+                </section>
+
+                <section class="form-group">
+                    <label for="phone">Phone Number <span class="conditional-required"></span></label>
+                    <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+                    <span class="error-message"></span>
+                </section>
+
+                <section class="form-group">
+                    <label for="comments">Your Message <span class="required">*</span></label>
+                    <textarea id="comments" name="comments" rows="5" required placeholder="Ask about specific albums, request special orders, or inquire about our vinyl selection..."></textarea>
+                    <span class="error-message"></span>
+                </section>
+
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+
+            <output id="form-success" class="form-success hidden"></output>
+        </article>
+    </section>
+
+    <footer>
+        <article class="container">
+            <section class="footer-content">
+                <section class="footer-section">
+                    <h3>Groove Haven Records</h3>
+                    <p>Your trusted source for premium vinyl records since 2010. Bringing the warmth of analog sound to music lovers everywhere.</p>
+                </section>
+                
+                <section class="footer-section">
+                    <h4>Quick Links</h4>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#featured">Featured Vinyl</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Store Hours</h4>
+                    <p>Monday - Friday: 10am - 8pm<br>Saturday: 10am - 10pm<br>Sunday: 12pm - 6pm</p>
+                </section>
+
+                <section class="footer-section">
+                    <h4>Contact Info</h4>
+                    <address>
+                        456 Music Avenue<br>
+                        Vinyl City, VC 78910<br>
+                        <a href="mailto:info@groovehaven.com">info@groovehaven.com</a><br>
+                        <a href="tel:5555551234">(555) 555-1234</a>
+                    </address>
+                </section>
+            </section>
+            
+            <p class="footer-bottom">&copy; 2024 Groove Haven Records. All rights reserved.</p>
+        </article>
+    </footer>
+</body>
+</html>
